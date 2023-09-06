@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Test2">
+      <class name="com.Jenkins.Jenkins.ExcelTest">
         <methods>
-          <include name="f"/>
+          <include name="LoginUsingJXL" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- Test2 -->
+      </class> <!-- com.Jenkins.Jenkins.ExcelTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

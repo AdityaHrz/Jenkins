@@ -1,3 +1,5 @@
+package com.Jenkins.Jenkins;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -5,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Test2 {
+public class Test1 {
 	WebDriver driver = new ChromeDriver();
   @Test
   public void f() {
